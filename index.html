@@ -25,9 +25,13 @@
   <body>
     <main>
       <div class="card-container">
-        <div class="image-container">
-          <img src="images/image-header-desktop.jpg" alt="" />
-        </div>
+        <picture class="hero-image">
+          <source
+            media="(min-width:830px)"
+            srcset="images/image-header-desktop.jpg"
+          />
+          <img src="images/image-header-mobile.jpg" alt="" />
+        </picture>
         <div class="card-content">
           <h1>Get <span>insights</span> that help your business grow.</h1>
 
